@@ -1,0 +1,16 @@
+{
+  "name": "underscore_test",
+  "version": "1.0.0",
+  "description": "`sudo apt-get install nodejs` `sudo apt-get install npm`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deep-object-diff": "^1.1.0",
+    "underscore": "^1.13.1"
+  }
+}
