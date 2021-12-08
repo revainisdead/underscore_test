@@ -270,3 +270,18 @@ test1.and.returnValue({
 test1.not.toHaveBeenCalledWith(() => console.log("Callback"))
 
 
+let reels = [{
+    container_type: "receiving",
+    reel_number: "1111",
+}]
+
+let newReel = {
+    container_type: "receiving_reassign_reel",
+    reel_number: "1111",
+}
+
+any = _.some(reels, {
+    container_type: newReel.container_type,
+    reel_number: newReel.reel_number,
+})
+console.log("Reel already exists: ", any)
