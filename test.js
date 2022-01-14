@@ -285,3 +285,15 @@ any = _.some(reels, {
     reel_number: newReel.reel_number,
 })
 console.log("Reel already exists: ", any)
+
+// Loop over object with underscore's mapObject (map but for objects)
+let objectLoopTest = {
+    "test1": 1,
+    "test2": 2,
+};
+//let correctObjMap = (fn, key, val) => {
+//    return fn(val, key)
+//}
+_.mapObject(objectLoopTest, (val, key) => {
+    console.log(key, val);
+})
