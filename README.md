@@ -24,5 +24,10 @@ npm set init.version "1.0.0"
 npm config list
 ```
 
-# To do
-- Compile with coffeescript
+# Compile with coffeescript
+Option 1)
+`coffee -c coffee.coffee`
+`node coffee.js`
+
+Option 2)
+`coffee coffee.coffee`
